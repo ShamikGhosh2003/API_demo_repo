@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Fruit-Classif'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E5A3824B43A54A01B6C9E3491BB88C05 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9642B85DAE4C4536BE079EC32AAF2592 }}
