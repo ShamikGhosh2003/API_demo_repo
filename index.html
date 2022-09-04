@@ -71,7 +71,7 @@
             };
 
             // Change endpoint here
-            fetch("https://7941-103-165-115-174.in.ngrok.io/mypred", requestOptions) 
+            fetch("http//127.0.0.1:8000/mypred", requestOptions) 
                 .then((response) => response.text())
                 .then((response) => {
                     result.innerText = response;
