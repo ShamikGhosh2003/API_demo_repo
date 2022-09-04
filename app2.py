@@ -56,7 +56,7 @@ cors=CORS(app,resources={r"/*":{"origins":"*"}})  #when frontend and backend are
 
 @app.route('/',methods=['GET'])
 def home():
-    return '<h1>The API is not running</h1>'
+    return '<h1>The API is not running (Ou Arif eisob dekchish??), change holo?</h1>'
 
 @app.route('/mypred',methods=['POST'])
 def output():
